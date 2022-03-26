@@ -7,15 +7,23 @@ This application provides 9 featured library appliation from rest API. This app 
 paths:
 
 /book/list
+
 /book/search/{search_item}
+
 /book/buy --> query params id,amount
+
 /book/delete/{id:[0-9]+}
+
 /book/update --> query params id,amount
+
 /book/add
 
 /author/get{id:[0-9]+}
+
 /author/search/{name}
+
 /author/add
+
 
 
 ## Notes
